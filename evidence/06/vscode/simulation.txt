@@ -1,0 +1,10 @@
+RUN C:\iverilog\bin\iverilog.EXE -g2012 -Wall -I C:\Users\a2391\lab3_23_mmss_clock\src -I C:\Users\a2391\lab3_23_mmss_clock\sim -s tb_mmss_counter -o C:\Users\a2391\lab3_23_mmss_clock\build\sim\run-5730841174704aabb0e2776083b95cfd\sim.vvp C:\Users\a2391\lab3_23_mmss_clock\src\mmss_counter.v C:\Users\a2391\lab3_23_mmss_clock\src\sevenseg_decode.v C:\Users\a2391\lab3_23_mmss_clock\src\lab3_mmss_clock.v C:\Users\a2391\lab3_23_mmss_clock\sim\tb_mmss_counter.sv
+
+RUN C:\iverilog\bin\vvp.EXE -N C:\Users\a2391\lab3_23_mmss_clock\build\sim\run-5730841174704aabb0e2776083b95cfd\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+LAB3_MMSS_PASS checks=7
+C:\Users\a2391\lab3_23_mmss_clock\sim\tb_mmss_counter.sv:81: $finish called at 144031000 (1ps)
+
+시뮬레이션 실행 완료. 진리표·자기검사·파형으로 회로의 정답 여부를 확인하세요.
+WAVE C:\Users\a2391\lab3_23_mmss_clock\build\sim\wave.vcd
+ *  Terminal will be reused by tasks, pressany key to close it. 
